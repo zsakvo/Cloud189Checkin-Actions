@@ -32,17 +32,13 @@ jobs:
         user_list=()
         pwd_list=()
 
-        IFS=","
-
         for u in ${user[*]}
         do
-        echo ${u}
         user_list[${#user_list[*]}]=${u}
         done
 
         for p in ${pwd[*]}
         do
-        echo ${p}
         pwd_list[${#pwd_list[*]}]=${p}
         done
 
@@ -58,6 +54,7 @@ jobs:
 
         for ((i=0;i<$user_num;i++))
         do
+        echo "第 `expr $i + 1` 个账号"
         python3 C189Checkin.py <<EOF
         ${user_list[$i]}
         ${pwd_list[$i]}

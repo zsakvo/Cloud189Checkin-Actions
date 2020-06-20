@@ -16,9 +16,21 @@
 ## 二、设置账号密码
 添加名为**USER**、**PWD**的变量  
 值分别为**账号**、**密码**  
-支持多账号，账号之间与密码之间用**半角逗号**分隔，账号于密码的个数要对应  
-示例：**USER:123456,24678**，**PWD:cxkjntm,jntmcxk**
+多账号时账号密码一行一个一一对应  
+示例：  
+**USER**  
+```
+123456
+24678
+```
+**PWD**  
+```
+cxkjntm
+jntmcxk
+```
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
+![](http://tu.yaohuo.me/imgs/2020/06/af2013b1ef5d8430.png)
+![](http://tu.yaohuo.me/imgs/2020/06/09c22adcec7b5d81.png)
 
 ## 三、启用Action
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
