@@ -1,7 +1,7 @@
-# Cloud189Checkin
-天翼云盘每日签到一次，抽奖2次  
+# Cloud189Checkin 
+天翼云盘每日签到一次，抽奖 2 次  
 使用方法  
-1.测试环境为python3.7.6,自行安装python3  
+1.测试环境为 python3.7.6,自行安装 python3  
 2.requirements.txt 是所需第三方模块，执行 `pip install -r requirements.txt` 安装模块  
 3.可在脚本内直接填写账号密码  
 4.Python 和需要模块都装好了直接在目录 cmd 运行所要运行的脚本。  
@@ -10,8 +10,8 @@
 > [Cloud189](https://github.com/Dawnnnnnn/Cloud189)
 > [cloud189](https://github.com/Aruelius/cloud189)
 
-# Github Actions说明
-## 一、Fork此仓库
+# Github Actions 说明
+## 一、Fork 此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 ## 二、设置账号密码
 添加名为**USER**、**PWD**的变量  
@@ -32,7 +32,7 @@ jntmcxk
 ![](http://tu.yaohuo.me/imgs/2020/06/af2013b1ef5d8430.png)
 ![](http://tu.yaohuo.me/imgs/2020/06/09c22adcec7b5d81.png)
 
-## 三、启用Action
+## 三、启用 Action
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
 2 修改任意文件后提交一次  
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
@@ -42,5 +42,5 @@ Actions > Cloud189Checkin > build
 能看到如下图所示，表示成功  
 ![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
 
-此后，将会在每天10:00和22:00各签到一次  
+此后，将会在每天 10:00 和 22:00 各签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改
